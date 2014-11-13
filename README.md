@@ -3,10 +3,10 @@ musicstore
 
 Our database project for Fall 2014
 
-#Intro
+##Intro
 I apologize ahead of time if this comes across as overly pedantic, but I figured that this might be the best way to go about this.  The following outlines some installation instructions that anyone of us needs to impart to the rest of the group in order to run our project (feel free to add to it, if anything you've added to the project needs to be explained).
 
-#Git Installation
+##Git Installation
 Since a few of us in the group have never used git before, here's a bit of a crash course on the topic.
 
 In order to install git, visit the git page and find the binary for your preferred OS: [git](http://git-scm.com/downloads).
