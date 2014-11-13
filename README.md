@@ -12,6 +12,7 @@ Since a few of us in the group have never used git before, here's a bit of a cra
 In order to install git, visit the git page and find the binary for your preferred OS: [git](http://git-scm.com/downloads).
 
 After you've completed the setup, you can clone the project through git bash with:
+
     git clone https://github.com/databasegrouputpb/musicstore.git
 
 Or by copying the above url into the GUI version.
