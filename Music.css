@@ -1,0 +1,48 @@
+body {background-color: #CCD6CC;} 
+
+div.header
+{
+	width: 60%;
+	height: 2em;
+	background-color: #3399FF;
+	padding: 1%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headerTitle
+{
+	color: white;
+	font-size: 2em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	display: inline;
+	padding-right: 1%;
+}
+
+#headerInput
+{
+	display: inline;
+}
+
+#headerLinks
+{
+	list-style-type: none;
+	display: inline;
+	font-size: 1.2em;
+}
+
+#hLink
+{
+	padding-right: 1%;
+	color: white;
+	text-decoration: none;
+}
+
+#headerLogin
+{
+	position: relative;
+	left: 25%;
+	list-style-type: none;
+	display: inline;
+	font-size: 1.2em;
+}
