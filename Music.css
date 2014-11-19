@@ -3,11 +3,13 @@ body {background-color: #CCD6CC;}
 div.header
 {
 	width: 60%;
+	min-width: 1000px;
 	height: 2em;
 	background-color: #3399FF;
 	padding: 1%;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
 }
 
 #headerTitle
@@ -19,16 +21,43 @@ div.header
 	padding-right: 1%;
 }
 
-#headerInput
+#searchHolder
 {
+	border-radius: 25px;
+	position: fixed;
+	display: inline;
+	background-color: black;
+	min-width: 10%;
+	min-height: 4.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
+}
+
+#searchInput
+{
+	border-style: none;
+	background-color: black;
+	color: white;
+	display: inline;
+}
+
+#searchButton
+{
+	border-style: none;
+	background-color: black;
+	color: white;
 	display: inline;
 }
 
 #headerLinks
 {
+	position: relative;
 	list-style-type: none;
 	display: inline;
 	font-size: 1.2em;
+	left: 10%;
 }
 
 #hLink
@@ -45,4 +74,11 @@ div.header
 	list-style-type: none;
 	display: inline;
 	font-size: 1.2em;
+}
+
+#user
+{
+	border-style: none;
+	background-color: red;
+	font-size: .7em;
 }

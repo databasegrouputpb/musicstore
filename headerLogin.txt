@@ -21,7 +21,6 @@
 </ul>
 
 <ul id="headerLogin">
-	<li id="headerLinks"> <a id="hLink" href="url">Join</a> </li>
 	<li id="headerLinks"> <a id="hLink" href="url">Login</a> </li>
 </ul>
 </div>
