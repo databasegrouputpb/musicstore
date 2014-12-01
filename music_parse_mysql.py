@@ -10,8 +10,8 @@ from mutagen.easyid3 import EasyID3
 
 
 HOST = "localhost"                                          # host name for the db
-USER = "deathgrindfreak"                                    # mysql user
-PASS = "calabiyau"                                          # mysql password
+USER = "root"                                               # mysql user
+PASS = "root"                                               # mysql password
 DBNAME = "musicstore"                                       # name of the database
 MUSICPATH = os.path.expanduser("~/bin/musicstore/music")    # top-level directory for music
 
