@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>Jam Pad</title>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class=header>
+    <div id=header_container>
+        <div id=mainlogo>Jam Pad</div>
+        <input id=searchInput type=text size=26 placeholder="Music Search">
+        </input>
+
+        <div class=header-links>
+            <ul class=nav-link-list>
+                <li class="nav-links"> <a class="a-nav-links" href="url">Music</a> </li>
+                <li class="nav-links"> <a class="a-nav-links" href="url">Artist</a> </li>
+                <li class="nav-links"> <a class="a-nav-links" href="url">Songs</a> </li>
+            </ul>
+        </div>
+
+        <div class=header-login>
+            <ul id=nav-link-list>
+                <li class="nav-links"> <a class="a-nav-links" href="url">Join</a> </li>
+                <li class="nav-links"> <a class="a-nav-links" href="url">Login</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class=main-container>
+{% block body %}{% endblock %}
+</div>
