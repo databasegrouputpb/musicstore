@@ -68,8 +68,6 @@ def create_entries(db, dir):
             else:
                 album_id = albums.index(album) + 1
 
-            print artist, album, year, title, genre
-
             cur.execute("INSERT INTO song(song_name, artist_id, album_id, mp3_path) VALUES (?,?,?,?)", [title[0], artist_id, album_id, os.path.abspath(song)])
             cur.execute("INSERT INTO genres(genre_title) VALUES (?)", genre)
 
@@ -131,18 +129,6 @@ if __name__=='__main__':
                             artist_id INTEGER NOT NULL,
                             song_name TEXT NOT NULL,
                             mp3_path TEXT NOT NULL
-                        );
-                        """)
-
-        if not ('users' in cur_tables):
-            cur.execute("""
-                        CREATE TABLE users (
-                            user_id integer PRIMARY KEY NOT NULL,
-                            user_email TEXT NOT NULL,
-                            user_pass character varying(32) NOT NULL,
-                            location TEXT NOT NULL,
-                            active INTEGER DEFAULT 0 NOT NULL,
-                            joined DATE
                         );
                         """)
 
